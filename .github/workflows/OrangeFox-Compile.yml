@@ -24,11 +24,11 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'android-13'
+        default: 'android-12.1'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/redmi/spes'
+        default: 'device/xiaomi/spes'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
@@ -116,3 +116,4 @@ jobs:
           Build: fox_${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: [Device Tree/Branch](${{ github.event.inputs.DEVICE_TREE }}/tree/${{ github.event.inputs.DEVICE_TREE_BRANCH }})
           Commit: Most recent [commit](${{ github.event.inputs.DEVICE_TREE }}/commit/${{ env.COMMIT_ID }}) during building.
+
