@@ -20,7 +20,7 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_spes-pbrp'
+        default: 'https://dumps.tadiphone.dev/dumps/redmi/spes.git'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
