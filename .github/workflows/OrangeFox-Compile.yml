@@ -20,11 +20,11 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/redmi/spes.git'
+        default: 'https://github.com/PhateValleyman/kernel_xiaomi_spes.git'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'android-12.1'
+        default: '13'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
